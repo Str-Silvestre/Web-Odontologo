@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="image/png" type="image/x-icon" href="./img/favicon.png">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--Carga de iconos de font awasome-->
+  <link rel="stylesheet" href="css/all.css">
+
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>SONRISAS | Cuidamos tus dientes.</title>
+
+</head>
+
+<body>
+  <section class="container ">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-9">
+        
+        <form action="" class="bg-light my3 p-3 border rounded" >         
+           
+          <h2 class="text-center mb-4">Formulario de Pedido</h2>
+          <!--Sección informacion personal-->
+          <section class="row mb-4">
+            
+            <h4 class="col-12 text-info mb-3">
+              <span class="fa-stack h5">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+            </span>
+              Información personal</h4>     
+              <!--Campo nombre-->
+              <div class="col-12 mb-3 col-sm-6">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ejem: Juan Manuel...">
+              </div>       
+              <!--Campo Apellido-->
+              <div class="col-12 mb-3 col-sm-6">
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Ejem: Silvestre...">
+              </div>
+              <!--Campo Email-->
+              <div class="col-12 mb-3 col-sm-6">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Ejem: User64@gmail.com">
+              </div>
+              <!--Campo telefono -->
+              <div class="col-12 mb-3 col-sm-6">
+                <label for="telefono">Teléfono:</label>
+                <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Ejem: (849) 858 7469...">
+              </div>
+          </section>
+          <!--Sección Direccion de envio-->
+          <section class="row mb-4">
+            <h4 class="col-12 text-info mb-3">
+              <span class="fa-stack h5">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-map-marker-alt fa-stack-1x fa-inverse"></i>
+              </span>
+              Dirección de envío
+            </h4>
+              <!--Campo direccion-->
+              <div class="col-12 mb-3">
+                <label for="direccion">Dirección:</label>
+                <input type="text" name="direccion" id="direccion" class="form-control" placeholder="av. Constitución">
+              </div>
+              <!--Campo Provincia-->
+              <div class="col-6 col-sm-4 mb-3">
+                <label for="provincia">Provincia:</label>
+                <input type="text" name="provincia" id="provincia" class="form-control" placeholder="Ejem: San cristobal">
+              </div>
+              <!--Campo Ciudad-->
+              <div class="col-6 col-sm-4 mb-3"> 
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" name="ciudad" id="ciudad" class="form-control" placeholder="Ejem: Haina">
+              </div>
+              <!--Campo Codigo postal -->
+              <div class="col-12 col-sm-4 mb-3">
+                <label for="codigo-postal">Código postal:</label>
+                <input type="text" name="codigo-postal" id="codigo-postal" class="form-control" placeholder="Ejem: 900000">
+              </div>
+          </section>
+          <!--seccióon fecha de envio-->
+          <section class="row mb-4">
+            <h4 class="col-12 text-info mb-3">
+              <span class="fa-stack h5">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-calendar-alt fa-stack-1x fa-inverse"></i>
+            </span>
+              fecha de envío
+            </h4>
+          
+            <div class="col-12 col-md-6 row p-0 m-0"> 
+              <!--Campo fecha de envio-->
+              <div class="col-12 col-sm-6 col-md-12 mb-3">
+                <label for="fecha-envio">Fecha de envío:</label>.
+                <input type="text" name="fecha-envio" id="fecha-envio" class="form-control" placeholder="Ejem: 21/3/2020">
+              </div>  
+              <div class="col-12 col-sm-6 col-md-12 mb-3">
+                <label for="hora-envio">Hora de envío:</label>.
+                <input type="text" name="hora-envio" id="hora-envio" class="form-control" placeholder="Ejem: 6pm">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+              <label for="comentario">Comentariós:</label>
+              <textarea name="comentario" id="comentario" rows="5" class="form-control"></textarea>
+            </div>
+          </section>
+          <div class="row mb-3">
+            <div class="col-12 d-grid mb-2 col-md-3">
+              <button type="submit" class="btn btn-primary "><i class="fas fa-location-arrow pe-1"></i> Enviar</button>
+            </div>
+            <div class="col-12 d-grid mb-2 col-md-3">
+              <button type="submit" class="btn btn-secondary"><i class="fas fa-times pe-1"></i> Cancelar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </section>
+ 
+
+
+
+
+  <!-- Archivo javaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Option 2: Separate Popper -->
+  <script src="js/popper.min.js"></script>
+
+</body>
+
+</html>
