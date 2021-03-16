@@ -1,3 +1,32 @@
+/*-------------------------------
+1. Tipografia del sitio
+-------------------------------*/
+html {
+  font-size: 13px; }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #696969; }
+
+/*---------------------------------
+2. ESTILOS GENERALES DE BOTONES
+---------------------------------*/
+/*---------------------------------
+3. ESTILOS COLOR PRINCIPAL
+---------------------------------*/
+.bg-primary {
+  background-color: #00ad75 !important; }
+
+.text-primary {
+  color: #00ad75 !important; }
+
+/*---------------------------------
+3. ESTILOS COLOR SECUNDARIO
+---------------------------------*/
+.bg-secundary {
+  background-color: #35363c !important; }
+
+.text-secundary {
+  color: #35363c !important; }
 
 /*# sourceMappingURL=estilos.css.map */

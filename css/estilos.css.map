@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAQA;;iCAEiC;AACjC,IAAI;EACA,SAAS,EAAE,IAAI;;AAEnB,IAAI;EACA,WAAW,EAAE,4BAA4B;EACzC,KAAK,EAXF,OAAO;;AAad;;mCAEmC;AAInC;;mCAEmC;AACnC,WAAW;EACP,gBAAgB,EAAE,kBAAqB;;AAE3C,aAAa;EACT,KAAK,EAAE,kBAAqB;;AAEhC;;mCAEmC;AACnC,aAAa;EACT,gBAAgB,EAAE,kBAAsB;;AAE5C,eAAe;EACX,KAAK,EAAE,kBAAsB",
+"sources": ["estilos.scss"],
 "names": [],
 "file": "estilos.css"
 }
