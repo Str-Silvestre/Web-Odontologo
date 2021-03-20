@@ -11,6 +11,11 @@ body {
 /*---------------------------------
 2. ESTILOS GENERALES DE BOTONES
 ---------------------------------*/
+.btn {
+  border-radius: 2rem;
+  padding: .6rem 2rem;
+  font-weight: bold; }
+
 /*---------------------------------
 3. ESTILOS COLOR PRINCIPAL
 ---------------------------------*/
@@ -19,6 +24,71 @@ body {
 
 .text-primary {
   color: #00ad75 !important; }
+
+/*estilos para btn-primary*/
+.btn-primary {
+  color: #fff;
+  background-color: #00ad75;
+  border-color: #00ad75;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.btn-primary:hover {
+  color: #151515;
+  background-color: #fff;
+  border-color: #00ad75; }
+
+.btn-primary:active {
+  color: #151515 !important;
+  background-color: #00c786 !important;
+  border-color: #00d691 !important; }
+
+.btn-primary:focus {
+  color: #151515 !important;
+  background-color: #00c786;
+  border-color: #00d691;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(0, 173, 117, 0.5) !important;
+          box-shadow: 0 0 0 0.25rem rgba(0, 173, 117, 0.5) !important; }
+
+/*flecha del boton principal*/
+.btn-primary:after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f138";
+  position: relative;
+  left: .6rem;
+  top: .1rem;
+  -webkit-transition: left .3s ease;
+  transition: left .3s ease; }
+
+.btn-primary:hover:after,
+.btn-primary:focus:after,
+.btn-primary:active:after {
+  left: .25rem; }
+
+/*insertamos la caja blanca del boton principal*/
+.btn-primary:before {
+  content: "";
+  z-index: -1;
+  width: 0px;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: skew(45deg, 0);
+          transform: skew(45deg, 0);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.btn-primary:hover:before,
+.btn-primary:focus:before,
+.btn-primary:active:before {
+  width: 130%;
+  left: -15%; }
 
 /*---------------------------------
 4. ESTILOS COLOR SECUNDARIO
