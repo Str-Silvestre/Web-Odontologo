@@ -71,7 +71,7 @@ body{
     position: relative;
     left: .6rem;
     top: .1rem; 
-    transition: left .3s ease;
+    transition: left .3s ease; 
 }
 .btn-primary:hover:after,
 .btn-primary:focus:after,
@@ -136,16 +136,21 @@ body{
     
 }
 
+
 /*Estilos boton del menu personalizado*/
-#menu-navegacion .boton-menu::before{
+#menu-navegacion .boton-menu:before{
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;    
     content: "\f0c9";
     color: rgb(255, 255, 255);
-    font-size: 2.5rem;
-    outline: 0;
-    
+    font-size: 2.5rem;     
 }
+#menu-navegacion .cerrar-icono:before{    
+    content: "\f00d";
+    position: relative;
+    left: .2rem;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     
     padding: 1rem 1.5rem;
@@ -195,3 +200,5 @@ X
         
     }
 }
+
+
