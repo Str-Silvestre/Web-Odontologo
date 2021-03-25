@@ -172,6 +172,15 @@ body {
 .navbar-dark .navbar-nav .nav-link.active {
   background-color: #00ad75; }
 
+/*---------------------------------------------
+7.ESTILOS PARA SWIPER #animacion
+----------------------------------------------*/
+.swiper-slide {
+  height: 34rem;
+  color: #fff;
+  background-size: cover;
+  background-position: center center; }
+
 /*--------------------------------------------
 X
 ---------------------------------------------*/
