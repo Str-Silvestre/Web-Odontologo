@@ -176,11 +176,74 @@ body {
 7.ESTILOS PARA SWIPER #animacion
 ----------------------------------------------*/
 .swiper-slide {
-  height: 34rem;
+  height: 35rem;
   color: #fff;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  text-align: center; }
 
+.swiper-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #151515;
+  opacity: 0.4; }
+
+.display-3 {
+  position: relative; }
+
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f060';
+  font-size: 1rem; }
+
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f061';
+  font-size: 1rem; }
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+/*-----------------------
+estado hover de los botenes
+------------------------------*/
+.swiper-button-next:hover:after,
+.swiper-button-prev:hover:after {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #00ad75; }
+
+.swiper-pagination-bullet {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 .5rem !important; }
+
+.swiper-pagination-bullet-active {
+  background-color: #00ad75; }
+
+/*----------------------------------
+Estilos para el paginador 
+--------------------*/
 /*--------------------------------------------
 X
 ---------------------------------------------*/
